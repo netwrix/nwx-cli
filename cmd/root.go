@@ -33,7 +33,6 @@ func showIntroScreen() {
 	fmt.Println("██║ ╚████║ ███████╗    ██║    ╚███╔███╔╝ ██║  ██║ ██║ ██╔╝ ██╗")
 	fmt.Println("╚═╝  ╚═══╝ ╚══════╝    ╚═╝     ╚══╝╚══╝  ╚═╝  ╚═╝ ╚═╝ ╚═╝  ╚═╝")
 	fmt.Println()
-	fmt.Println("\033[38;2;92;51;255m") // Vigilant Blue RGB (92, 51, 255)
 	fmt.Println("███████╗ ██╗      ██╗")
 	fmt.Println("██╔════╝ ██║      ██║")
 	fmt.Println("██║      ██║      ██║")
