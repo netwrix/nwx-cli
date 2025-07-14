@@ -43,20 +43,21 @@ changelog:
       - '^docs:'
       - '^test:'
 
+
 snapshot:
   version_template: "{{ incpatch .Version }}-next"
 
-brews:
-  - name: nwx-cli
-    homepage: "https://github.com/netwrix/nwx-cli"
-    description: "Netwrix CLI - Under Construction"
-    repository:
-      owner: netwrix
-      name: homebrew-tap
-    commit_author:
-      name: netwrix-bot
-      email: ai@netwrix.com
-    install: |
-      bin.install "nwx"
-    test: |
-      system "#{bin}/nwx"
+# brews:
+#   - name: nwx-cli
+#     homepage: "https://github.com/netwrix/nwx-cli"
+#     description: "Netwrix CLI - Under Construction"
+#     repository:
+#       owner: netwrix
+#       name: homebrew-tap
+#     commit_author:
+#       name: netwrix-bot
+#       email: ai@netwrix.com
+#     install: |
+#       bin.install "nwx"
+#     test: |
+#       system "#{bin}/nwx"
