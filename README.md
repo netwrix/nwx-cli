@@ -16,6 +16,7 @@ brew install netwrix/tap/nwx-cli
 
 ## Usage
 
+
 ```bash
 nwx
 ```
