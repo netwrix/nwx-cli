@@ -12,7 +12,12 @@ var rootCmd = &cobra.Command{
 	Short: "Netwrix CLI tool",
 	Long:  "A command-line interface tool for Netwrix operations and management.",
 	Run: func(cmd *cobra.Command, args []string) {
-		showIntroScreen()
+		// If no arguments provided, start interactive mode
+		if len(args) == 0 {
+			InteractiveCommand.Run(cmd, args)
+		} else {
+			cmd.Help()
+		}
 	},
 }
 
